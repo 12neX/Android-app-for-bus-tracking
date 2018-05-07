@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_gravity="center" />
+    
+    
+        
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text=""/>
+
+     <pragma.embd.RoundedImageView.RoundedImageView
+            android:id="@+id/img_select_bus"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bus" 
+            android:layout_gravity="center"/>
+    
+    
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus No and Boarding Point"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:textColor="#E91E63"/>
+     
+     
+       <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""/>
+       
+         <TextView
+        android:id="@+id/tv_bus_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus No"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:textColor="#000000"/>
+     
+         <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text=""/>
+       
+       
+       <TextView
+        android:id="@+id/tv_boarding_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boarding Point"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:textColor="#000000"/>
+     
+         <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text=""/>
+         
+         <pragma.embd.RoundedImageView.RoundedImageView
+            android:id="@+id/img_bus_arrival_time"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/busa" 
+            android:layout_gravity="center"/>
+         
+         <TextView
+        android:id="@+id/tv_bus_arrival_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approximate Bus Arrival Time: "
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:textColor="#000000"/>
+     
+         <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text=""/>
+      
+      <pragma.embd.RoundedImageView.RoundedImageView
+            android:id="@+id/img_map"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/map" 
+            android:layout_gravity="center"/>
+      
+       <TextView
+        android:id="@+id/tv_bus_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Location"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:textColor="#000000"/>
+    
+  
+        
+  </LinearLayout>
+    </ScrollView>

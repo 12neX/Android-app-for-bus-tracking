@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Track My Bus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+      <string name="text">Login Screen</string>
+    <string name="login">Login</string>
+ 
+    
+      <string name="text1">AddUserMainScreen</string>
+     <string name="adduser">Add User</string>
+    <string name="adddriver">Add Driver</string>
+       <string name="addroutesforbus">Add Routes For Driver</string>
+
+</resources>
